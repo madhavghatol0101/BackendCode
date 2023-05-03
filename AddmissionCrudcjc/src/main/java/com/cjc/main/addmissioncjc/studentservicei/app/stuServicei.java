@@ -10,4 +10,7 @@ public interface stuServicei {
 
 	public List<Student> getstu();
 
+	public void deleteone(Student s,int id);
+
+
 }

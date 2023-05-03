@@ -25,5 +25,10 @@ public class studentServiceimpl implements stuServicei{
 		List<Student> stuall = mr.findAll();
 		return stuall;
 	}
-
+	@Override
+	public void deleteone(Student s, int id) {
+		
+		mr.deleteById(id);
+	}
+	
 }
